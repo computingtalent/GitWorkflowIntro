@@ -414,3 +414,8 @@ def team_41():
 @app.route("/team_jose_caden_wanni")
 def team_jose_caden_wanni():
     return render_template('teams/team_jose_caden_wanni.html')
+
+
+@app.route("/jimmy_alexander_joey")
+def jimmy_alexander_joey():
+    return render_template('teams/jimmy_alexander_joey.html')
